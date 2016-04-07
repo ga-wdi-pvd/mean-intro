@@ -67,16 +67,9 @@ $ npm install --global nodemon
 
 ### This means you're good:
 
-```
-$ mongo
-MongoDB shell version: 3.2.1
-connecting to: something
->
-```
+First:
 
-**And:**
-
-Note that this has a `d` at the end of it. Very important!
+Note that `mongod` has a `d` at the end of it. Very important!
 
 ```
 $ mongod
@@ -84,6 +77,15 @@ $ mongod
 2016-04-07T12:20:50.450-0400 I CONTROL  [initandlisten] db version v3.2.1
 2016-04-07T12:20:50.450-0400 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
 # ...and a bunch more stuff
+```
+
+Then, without the final `d`:
+
+```
+$ mongo
+MongoDB shell version: 3.2.1
+connecting to: something
+>
 ```
 
 ### Otherwise:
