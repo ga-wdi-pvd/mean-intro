@@ -11,11 +11,14 @@
 - Explain how `require` and `module.exports` are related
 - List two handlebars helpers
 
-## Walkthrough
+## Walkthroughs
 
-https://github.com/ga-wdi-exercises/whenpresident/commits/master
+Using [WhenPresident](https://github.com/ga-wdi-exercises/whenpresident/commits/master), a MEAN app that lets you tell the world what you'll do **when President**. [Test it out here!](https://whenpresident.herokuapp.com/)
+
+[1. Creating an Express app](1-creating-an-express-app.md)
+
+[2. Connecting Mongo](2-connecting-mongo.md)
 
 ## Framing
 
 ## Resources
-
