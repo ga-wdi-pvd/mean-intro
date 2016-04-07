@@ -99,6 +99,20 @@ STOP
 
 ![#](images/mongolab-url.png)
 
+1. `$ git push heroku master`
+- Go to www.mongolab.com and sign up / sign in
+- Create a new "Single Node" database with the "Sandbox" tier
+- Click on the database
+- Click "Users"
+- Create a new user. (This is *not* the user with which you logged in to Mongolab.) "User" in this context really means "an app that has access to your database". There's no need for security now; I used the username "test" with a password of "testerson".
+- Copy the "To connect using a driver" URL from the top of the Users page.
+- Set the URL as an environment variable called MONGOLAB_URL using `heroku config:set` as below, filling in the username and password you just created on the "Users" page. For example:
+    ```
+    $ heroku config:set MONGOLAB_URL=mongodb://test:testerson@ds015760.mlab.com:15760/yourappname
+    ```
+- `$ heroku run node db/seed.js`
+- `$ heroku open`
+
 -----
 STOP
 -----
