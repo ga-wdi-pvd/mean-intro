@@ -90,9 +90,16 @@ connecting to: something
 
 ### Otherwise:
 
-- [Mac Instructions](https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/#install-with-homebrew) (Follow the "Install Community Edition with Homebrew" section)
+#### Mac Instructions
 
-- [Linux Instructions](https://docs.mongodb.org/manual/administration/install-enterprise-linux/)
+```
+$ brew update
+$ brew install mongodb
+$ sudo mkdir -p /data/db
+$ sudo chown `id -u` /data/db
+```
+
+#### [Linux Instructions](https://docs.mongodb.org/manual/administration/install-enterprise-linux/)
 
 ## MongoLab
 
