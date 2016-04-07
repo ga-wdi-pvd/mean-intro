@@ -37,6 +37,15 @@ We'll be using [WhenPresident](https://github.com/ga-wdi-exercises/whenpresident
 
 > It has 3 whole lines of CSS. Bonus points if you make a pull request that makes it look pretty!
 
+To start:
+
+```
+$ git clone git@github.com:ga-wdi-exercises/whenpresident.git
+$ cd whenpresident
+$ git checkout 0-starter-code
+$ git checkout -b starter
+```
+
 [1. Creating an Express app](1-creating-an-express-app.md)
 
 [2. Connecting Mongo](2-connecting-mongo.md)
