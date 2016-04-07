@@ -12,6 +12,7 @@
 
 # Added index.js
 
+- What does `nodemon` do?
 - What does `require` do?
 - What's the difference between `require("hello")`, `require("./hello")`, and `require("./hello.js")`?
 - Note the `()` at the end of `express()`. This means `require("express")` must be returning what kind of object?
@@ -37,6 +38,7 @@ STOP
 # Added views
 
 - `<%= yield %>` in Rails is like what in Handlebars?
+- What's the difference between a `.hbs` file and a `.html` file?
 
 ![#](images/layout-main.png)
 
@@ -56,6 +58,7 @@ STOP
 # Added express.static and CSS
 
 - What do the two arguments in `app.use` in this snippet do?
+- Why is `app.use` called "*middle*ware"?
 - If I write `app.use("/wombat", express.static("chicken"))`...
   - In which folder should I put all my CSS files?
   - When I `<link>` to my CSS, with what will the `href` path begin?
