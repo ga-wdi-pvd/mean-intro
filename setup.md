@@ -79,7 +79,7 @@ $ mongod
 # ...and a bunch more stuff
 ```
 
-Then, without the final `d`:
+Then **open a new tab**, and without the final `d`:
 
 ```
 $ mongo
