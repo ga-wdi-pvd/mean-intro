@@ -1,4 +1,8 @@
-# WhenPresident Walkthrough
+[Back to main](readme.md)
+
+-----
+
+> 10/10
 
 # npm install --save mongoose
 
@@ -16,6 +20,11 @@
 
 ![#](images/seed-script.png)
 
+-----
+STOP
+-----
+> 10/20
+
 # Shows DB candidates in candidates#index
 
 - What's the purpose of the callback function in `Candidate.find().then(callback)`? Why is it necessary?
@@ -27,6 +36,11 @@
 - What's the difference between `.find` and `.findOne`?
 
 ![#](images/db-candidates-in-show.png)
+
+-----
+STOP
+-----
+> 10/30
 
 # npm install --save body-parser
 
@@ -50,6 +64,11 @@
 
 ![#](images/create-to-db.png)
 
+-----
+STOP
+-----
+> 10/40
+
 # Updates a candidate in the database
 
 - Why can't we use `app.put` or `app.patch` for an "update" route? How is the answer to this question related to HTML forms?
@@ -68,12 +87,22 @@
 
 ![#](images/add-delete-route.png)
 
+-----
+STOP
+-----
+> 5/45
+
 # Added procfile and Mongolab URL for deployment
 
 - True or false: the environment variable for your Mongo database's location *must* be `MONGOLAB_URL`.
 - What's the value of `process.env.NODE_ENV` on Heroku? On your computer?
 
 ![#](images/mongolab-url.png)
+
+-----
+STOP
+-----
+> 15/60
 
 # Added positions to candidate
 
@@ -96,3 +125,7 @@
 ![#](images/positions-delete-route.png)
 
 ![#](images/positions-delete-form.png)
+
+-----
+
+[Back to main](readme.md)

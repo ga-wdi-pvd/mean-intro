@@ -1,3 +1,9 @@
+[Back to main](readme.md)
+
+-----
+
+> 10/10
+
 # npm init && npm install --save express
 
 - What is NPM?
@@ -15,6 +21,11 @@
 - What is `3001`, and how does it affect what you do in your browser?
 
 ![#](images/initial-server.png)
+
+-----
+STOP
+-----
+> 5/15
 
 # npm install --save express-handlebars
 
@@ -37,6 +48,11 @@
 
 ![#](images/configured-hbs.png)
 
+-----
+STOP
+-----
+> 5/20
+
 # Added express.static and CSS
 
 - What do the two arguments in `app.use` in this snippet do?
@@ -57,6 +73,11 @@
 ![#](images/add-js.png)
 
 ![#](images/linked-js.png)
+
+-----
+STOP
+-----
+> 10/30
 
 # Added candidates#index route
 
@@ -85,6 +106,11 @@
 
 ![#](images/each-in-index.png)
 
+-----
+STOP
+-----
+> 10/40
+
 # Added candidates#show route
 
 ![#](images/added-show.png)
@@ -101,6 +127,11 @@
 
 ![#](images/added-unless.png)
 
+-----
+STOP
+-----
+> 5/45
+
 # Deploying to Heroku
 
 - What does a Procfile do?
@@ -110,3 +141,7 @@
 ![#](images/procfile.png)
 
 ![#](images/env-port.png)
+
+-----
+
+[Back to main](readme.md)
