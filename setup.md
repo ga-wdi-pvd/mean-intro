@@ -85,8 +85,12 @@ Then **open a new tab**, and without the final `d`:
 $ mongo
 MongoDB shell version: 3.2.1
 connecting to: something
+Server has startup warnings:
+WARNING: soft rlimits too low. Number of files is 256, should be at least 1000
 >
 ```
+
+You may or may not get the above warning. Either way, it's OK! If it's bothering you, [read this.](http://www.saintsatplay.com/blog/2015/05/increasing-mongodb-soft-rlimits-on-mac-os-x)
 
 ### Otherwise:
 
