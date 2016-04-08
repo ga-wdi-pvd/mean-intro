@@ -42,8 +42,8 @@ To start:
 ```
 $ git clone git@github.com:ga-wdi-exercises/whenpresident.git
 $ cd whenpresident
-$ git checkout 0-starter-code
-$ git checkout -b starter
+$ git checkout efab85b
+$ git checkout -b starter-code
 ```
 
 [1. Creating an Express app](1-creating-an-express-app.md)
