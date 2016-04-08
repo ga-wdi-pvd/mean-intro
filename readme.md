@@ -54,3 +54,12 @@ $ git checkout -b starter-code
 
 - [The Big List of Mongoose methods](http://mongoosejs.com/docs/api.html)
 - [An earlier Express lesson plan](https://github.com/ga-wdi-lessons/express-intro)
+- Screencasts
+  - WDI8
+    - Take 1
+      - [Part 1](https://youtu.be/i7gF0jIKYV0)
+      - [Part 2](https://youtu.be/2_oWtEwR9ls)
+      - [Part 3](https://youtu.be/huGXxXLo3Tc)
+      - [Part 4](https://youtu.be/tWNbczMsnug)
+      - [Part 5](https://youtu.be/RaRr1n8K2yU)
+      - [Part 6](https://youtu.be/ddHtx5dbBD0)
