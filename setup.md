@@ -118,6 +118,8 @@ Heroku won't let you use their MongoDB database without paying for it. We're usi
 - Click "Users"
 - Create a new user with the name of "test" and the password of "testerson".
 
+![#](http://i.giphy.com/xTiQyhG5HDEDbXc0KI.gif)
+
 -----
 
 # To test everything worked:
