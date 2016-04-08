@@ -124,11 +124,9 @@ STOP
 
 ![#](images/data-in-show.png)
 
-# Added #unless in candidates#show
+# Added #if in candidates#show
 
-- What is the "opposite" of `#unless`?
-
-![#](images/added-unless.png)
+![#](images/added-if.png)
 
 -----
 STOP
