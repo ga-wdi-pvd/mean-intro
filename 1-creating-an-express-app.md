@@ -69,7 +69,7 @@ STOP
 
 ![#](images/linked-css.png)
 
-# Added font-end Javascript
+# Added front-end Javascript
 
 - What's the difference between front-end Javascript and back-end Javascript?
 
