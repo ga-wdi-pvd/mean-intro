@@ -63,3 +63,9 @@ $ git checkout -b starter-code
       - [Part 4](https://youtu.be/tWNbczMsnug)
       - [Part 5](https://youtu.be/RaRr1n8K2yU)
       - [Part 6](https://youtu.be/ddHtx5dbBD0)
+    - Take 2
+      - [Part 1](https://youtu.be/cH0gfO3W9Pc)
+      - [Part 2](https://youtu.be/fzD_0AzYQEQ)
+      - [Part 3](https://youtu.be/1Myb4VFF0D0)
+      - [Part 4](https://youtu.be/jjyJuIjWO84)
+      - [Part 5](https://youtu.be/cMudVdKCajY)
