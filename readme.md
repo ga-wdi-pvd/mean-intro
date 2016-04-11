@@ -31,6 +31,8 @@ This is Javascript, so it's very picky about punctuation. **An error probably ju
 
 **If you fall behind**, tilt your screen down, don't worry about your code, and just take notes and write down questions.
 
+![#](images/express-diagram.jpg)
+
 ## Walkthroughs
 
 We'll be using [WhenPresident](https://github.com/ga-wdi-exercises/whenpresident/commits/master), a MEAN app that lets you tell the world what you'll do "when President". [Test it out here!](https://whenpresident.herokuapp.com/)
