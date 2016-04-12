@@ -71,3 +71,4 @@ $ git checkout -b starter-code
       - [Part 3](https://youtu.be/1Myb4VFF0D0)
       - [Part 4](https://youtu.be/jjyJuIjWO84)
       - [Part 5](https://youtu.be/cMudVdKCajY)
+    - [Adding Mongoose](https://youtu.be/DpAz2EnAj2E)
