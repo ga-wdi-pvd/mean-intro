@@ -31,7 +31,7 @@ This is Javascript, so it's very picky about punctuation. **An error probably ju
 
 **If you fall behind**, tilt your screen down, don't worry about your code, and just take notes and write down questions.
 
-![#](images/express-diagram.jpg)
+![#](express-diagram.jpg)
 
 ## Walkthroughs
 
