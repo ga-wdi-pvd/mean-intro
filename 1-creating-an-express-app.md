@@ -48,7 +48,7 @@ Questions:
 # Download HBS
 
 ```bash
-$ nom install --save hbs
+$ npm install --save hbs
 ```
 
 ```js
