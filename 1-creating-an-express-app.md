@@ -1,5 +1,4 @@
-# https://www.github.com/ga-wdi-exercises/whenpresident
-> This commit history created using [Diffshot](https://github.com/RobertAKARobin/diffshot)
+# When President Express Setup
 
 # npm init && npm install --save express
 
