@@ -77,6 +77,14 @@ var hbs = require('hbs');
 app.set('view engine', 'hbs');
 app.set('views', './views');
 ```
+
+Change send to render and render the app-welcome view.
+
+```js
+app.get('/', (req, res) => {
+  res.render('app-welcome');
+});
+```
  
 -----
 # STOP
