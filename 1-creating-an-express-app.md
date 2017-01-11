@@ -254,8 +254,20 @@ app.get('/candidates/:id', (req, res) => {
 - What's the point of environment variables?
 - How do you access environment variables?
 
+```bash
+$ touch Procfile
+```
+
 ### [Deploying to Heroku: `Procfile`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/17a28af/Procfile)
 ![Deploying to Heroku, Procfile](_DIFFSHOTS/deploying-to-heroku.Procfile.png)
-### [Deploying to Heroku: `index.js`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/17a28af/index.js)
-![Deploying to Heroku, index.js](_DIFFSHOTS/deploying-to-heroku.index-js.png)
+
+We next need to add `process.end.PORT` as an optional port when deploying to Heroku.
+
+```js
+app.listen(process.env.PORT || 3001, () => {
+  console.log('//********************//');
+  console.log('//*LISTENING ON 3001**//');
+  console.log('//********************//');
+});
+```
  
