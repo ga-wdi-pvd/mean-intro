@@ -45,7 +45,11 @@ Questions:
 # STOP
 -----
  
-# npm install --save hbs
+# Download HBS
+
+```bash
+$ nom install --save hbs
+```
 
 ```js
 var hbs = require('hbs');
@@ -67,12 +71,12 @@ var hbs = require('hbs');
  
 # Configured handlebars
 
-> [83a9879](https://www.github.com/ga-wdi-exercises/whenpresident/commit/83a9879)
-
 - What's the difference between `res.send` and `res.render`?
 
-### [Configured handlebars: `index.js`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/83a9879/index.js)
-![Configured handlebars, index.js](_DIFFSHOTS/configured-handlebars.index-js.png)
+```js
+app.set('view engine', 'hbs');
+app.set('views', './views');
+```
  
 -----
 # STOP
