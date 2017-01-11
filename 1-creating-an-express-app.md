@@ -283,3 +283,22 @@ Then we need to set up `package.json` to use a specific node version for its ser
   }
 ```
  
+Login to heroku if you have an account.
+
+```bash
+$ heroku login
+```
+
+Then create an app name.
+
+```bash
+$ heroku create <your-app-name-here>
+```
+
+Commit all your changes then push to heroku master.
+
+```bash
+$ git add -A
+$ git commit -m "commit message"
+$ git push heroku master
+```
