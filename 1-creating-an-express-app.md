@@ -111,17 +111,36 @@ $ mkdir public
 $ mkdir public/css
 $ touch public/css/main.css
 ```
+
+Include the link to the file in the head of the `layout.hbs` file.
+
+```html
+<head>
+    <meta charset="utf-8">
+    <title>When President</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+```
  
 # Added front-end Javascript
 
-> [8f061d3](https://www.github.com/ga-wdi-exercises/whenpresident/commit/8f061d3)
+```bash
+$ mkdir public/js
+$ touch public/js/script.js
+```
 
-- What's the difference between front-end Javascript and back-end Javascript?
+Include this also in the head of the `layout.hbs` file.
 
-### [Added front-end Javascript: `public/js/app.js`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/8f061d3/public/js/app.js)
-![Added front-end Javascript, public/js/app.js](_DIFFSHOTS/added-front-end-javascript.public-js-app-js.png)
-### [Added front-end Javascript: `views/layout-main.hbs`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/8f061d3/views/layout-main.hbs)
-![Added front-end Javascript, views/layout-main.hbs](_DIFFSHOTS/added-front-end-javascript.views-layout-main-hbs.png)
+```html
+<head>
+    <meta charset="utf-8">
+    <title>When President</title>
+    <link rel="stylesheet" href="/css/main.css">    
+    <script src="/js/script.js" charset="utf-8"></script>
+</head>
+```
+
+We can write a `console.log('I am working')` in our js file and test it in the browser console to see if it works.
 
 -----
 # STOP
