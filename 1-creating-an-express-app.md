@@ -161,16 +161,40 @@ $ touch views/candidates-index.hbs
 ### [Added candidates#index route: `index.js`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/3da2c67/index.js)
 ![Added candidates#index route, index.js](_DIFFSHOTS/added-candidatesindex-route.index-js.png)
  
-# Added fake data
+# Add fake data
 
 > [0e2c37d](https://www.github.com/ga-wdi-exercises/whenpresident/commit/0e2c37d)
 
 - What is `module.exports` and how is it related to `require`?
 
+```bash
+$ mkdir db
+$ touch db/connection.js
+$ touch db/seeds.json
+```
+
 ### [Added fake data: `db/connection.js`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/0e2c37d/db/connection.js)
 ![Added fake data, db/connection.js](_DIFFSHOTS/added-fake-data.db-connection-js.png)
-### [Added fake data: `db/seeds.json`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/0e2c37d/db/seeds.json)
-![Added fake data, db/seeds.json](_DIFFSHOTS/added-fake-data.db-seeds-json.png)
+
+You may copy and past the seed data into the seed.json file.
+
+```json
+[
+ {
+  "name": "Steve",
+  "year": 2024
+ },
+ {
+  "name": "Obama",
+  "year": 2008
+ },
+ {
+  "name": "Dubbya",
+  "year": 2000
+ }
+]
+```
+
 ### [Added fake data: `index.js`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/0e2c37d/index.js)
 ![Added fake data, index.js](_DIFFSHOTS/added-fake-data.index-js.png)
 ### [Added fake data: `views/candidates-index.hbs`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/0e2c37d/views/candidates-index.hbs)
