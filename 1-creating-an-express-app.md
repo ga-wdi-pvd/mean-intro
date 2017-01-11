@@ -270,4 +270,16 @@ app.listen(process.env.PORT || 3001, () => {
   console.log('//********************//');
 });
 ```
+
+Then we need to set up `package.json` to use a specific node version for its server engine right below the dependencies.
+
+```json
+"dependencies": {
+    "express": "^4.14.0",
+    "hbs": "^4.0.1"
+  },
+  "engines": {
+    "node": "6.3.1"
+  }
+```
  
