@@ -92,20 +92,25 @@ app.get('/', (req, res) => {
 
 # Added express.static and CSS
 
-> [6fb87cf](https://www.github.com/ga-wdi-exercises/whenpresident/commit/6fb87cf)
-
 - What do the two arguments in `app.use` in this snippet do?
 - Why is `app.use` called "middleware"?
 - If I write `app.use("/wombat", express.static("chicken"))`...
   - In which folder should I put all my CSS files?
   - When I `<link>` to my CSS, with what will the `href` path begin?
   
-### [Added express.static and CSS: `index.js`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/6fb87cf/index.js)
-![Added express.static and CSS, index.js](_DIFFSHOTS/added-expressstatic-and-css.index-js.png)
-### [Added express.static and CSS: `public/css/styles.css`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/6fb87cf/public/css/styles.css)
-![Added express.static and CSS, public/css/styles.css](_DIFFSHOTS/added-expressstatic-and-css.public-css-styles-css.png)
-### [Added express.static and CSS: `views/layout-main.hbs`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/6fb87cf/views/layout-main.hbs)
-![Added express.static and CSS, views/layout-main.hbs](_DIFFSHOTS/added-expressstatic-and-css.views-layout-main-hbs.png)
+Set up express to point to the public static files.
+
+```js
+app.use(express.static(__dirname + '/public');
+```
+
+Create a public folder and css folder within it for a `main.css` file.
+  
+```bash
+$ mkdir public
+$ mkdir public/css
+$ touch public/css/main.css
+```
  
 # Added front-end Javascript
 
