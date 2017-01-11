@@ -151,6 +151,10 @@ We can write a `console.log('I am working')` in our js file and test it in the b
 
 - What does the second argument in `res.render` do? What kind of data type should it be?
 
+```bash
+$ touch views/candidates-index.hbs
+```
+
 ### [Added candidates#index route: `views/candidates-index.hbs`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/3da2c67/views/candidates-index.hbs)
 ![Added candidates#index route, views/candidates-index.hbs](_DIFFSHOTS/added-candidatesindex-route.views-candidates-index-hbs.png)
 
