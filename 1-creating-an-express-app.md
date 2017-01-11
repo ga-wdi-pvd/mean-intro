@@ -145,16 +145,17 @@ We can write a `console.log('I am working')` in our js file and test it in the b
 # STOP
 -----
 
-# Added candidates#index route
+# Add a candidates#index route
 
 > [3da2c67](https://www.github.com/ga-wdi-exercises/whenpresident/commit/3da2c67)
 
 - What does the second argument in `res.render` do? What kind of data type should it be?
 
-### [Added candidates#index route: `index.js`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/3da2c67/index.js)
-![Added candidates#index route, index.js](_DIFFSHOTS/added-candidatesindex-route.index-js.png)
 ### [Added candidates#index route: `views/candidates-index.hbs`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/3da2c67/views/candidates-index.hbs)
 ![Added candidates#index route, views/candidates-index.hbs](_DIFFSHOTS/added-candidatesindex-route.views-candidates-index-hbs.png)
+
+### [Added candidates#index route: `index.js`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/3da2c67/index.js)
+![Added candidates#index route, index.js](_DIFFSHOTS/added-candidatesindex-route.index-js.png)
  
 # Added fake data
 
