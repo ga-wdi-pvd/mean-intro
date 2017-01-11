@@ -200,42 +200,47 @@ You may copy and past the seed data into the seed.json file.
 ### [Added fake data: `views/candidates-index.hbs`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/0e2c37d/views/candidates-index.hbs)
 ![Added fake data, views/candidates-index.hbs](_DIFFSHOTS/added-fake-data.views-candidates-index-hbs.png)
  
-# Added #each in index
+# Add #each in index
 
 > [6f3ebaf](https://www.github.com/ga-wdi-exercises/whenpresident/commit/6f3ebaf)
 
 - What's the difference between how you begin an end an `each` loop in Handlebars?
 - How is Handlebars' `#each` similar to Ruby's `.each`?
 
-### [Added #each in index: `views/candidates-index.hbs`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/6f3ebaf/views/candidates-index.hbs)
-![Added #each in index, views/candidates-index.hbs](_DIFFSHOTS/added-each-in-index.views-candidates-index-hbs.png)
+```html
+<h2>{{candidates.length}} Candidates</h2>
+
+{{#each candidates as |candidate index|}}
+<h3>
+  <a href="/candidates/{{index}}">{{candidate.name}}</a> for president in {{candidate.year}}
+</h3>
+{{/each}}
+```
  
 -----
 # STOP
 -----
 
-# Added candidates#show route
+# Add a candidates#show route
 
 > [7bbe33d](https://www.github.com/ga-wdi-exercises/whenpresident/commit/7bbe33d)
 
-### [Added candidates#show route: `index.js`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/7bbe33d/index.js)
-![Added candidates#show route, index.js](_DIFFSHOTS/added-candidatesshow-route.index-js.png)
+```bash
+$ touch views/candiates-show.hbs
+```
+
 ### [Added candidates#show route: `views/candidates-show.hbs`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/7bbe33d/views/candidates-show.hbs)
 ![Added candidates#show route, views/candidates-show.hbs](_DIFFSHOTS/added-candidatesshow-route.views-candidates-show-hbs.png)
  
-# Included data in candidates#show
+Next add the route to the `index.js` file:
 
-> [c7dc775](https://www.github.com/ga-wdi-exercises/whenpresident/commit/c7dc775)
-
-### [Included data in candidates#show: `index.js`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/c7dc775/index.js)
-![Included data in candidates#show, index.js](_DIFFSHOTS/included-data-in-candidatesshow.index-js.png)
- 
-# Added #if in candidates#show
-
-> [ea5eeaf](https://www.github.com/ga-wdi-exercises/whenpresident/commit/ea5eeaf)
-
-### [Added #if in candidates#show: `views/candidates-show.hbs`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/ea5eeaf/views/candidates-show.hbs)
-![Added #if in candidates#show, views/candidates-show.hbs](_DIFFSHOTS/added-if-in-candidatesshow.views-candidates-show-hbs.png)
+```js
+app.get('/candidates/:id', (req, res) => {
+  res.render('candidates-show', {
+    candidate: db.candidates[req.params.id]
+  });
+});
+```
  
 -----
 # STOP
