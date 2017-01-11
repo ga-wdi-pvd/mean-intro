@@ -45,21 +45,17 @@ Questions:
 # STOP
 -----
  
-# npm install --save express-handlebars
+# npm install --save hbs
 
-> [a69ec2c](https://www.github.com/ga-wdi-exercises/whenpresident/commit/a69ec2c)
+```js
+var hbs = require('hbs');
+```
 
 - Whenever you `npm install --save` something, you'll also probably need to do what?
 - Whenever you `require` something, you'll probably need to do what first?
 
-### [npm install --save express-handlebars: `index.js`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/a69ec2c/index.js)
-![npm install --save express-handlebars, index.js](_DIFFSHOTS/npm-install-save-express-handlebars.index-js.png)
-### [npm install --save express-handlebars: `package.json`](https://www.github.com/ga-wdi-exercises/whenpresident/blob/a69ec2c/package.json)
-![npm install --save express-handlebars, package.json](_DIFFSHOTS/npm-install-save-express-handlebars.package-json.png)
  
 # Added views
-
-> [e13f24f](https://www.github.com/ga-wdi-exercises/whenpresident/commit/e13f24f)
 
 - `<%= yield %>` in Rails is like what in Handlebars?
 - What's the difference between a `.hbs` file and a `.html` file?
