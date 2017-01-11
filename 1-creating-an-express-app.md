@@ -243,7 +243,7 @@ app.get('/candidates/:id', (req, res) => {
 ```
  
 -----
-# STOP
+# Skip Next Section
 -----
 
 # Deploying to Heroku
